@@ -1,12 +1,12 @@
 # Portfolio
 
-#### First Project using HTML, CSS and Bootstrap for Epicodus, O5.16.2017
+#### First Java/JS project using HTML, CSS and Bootstrap for Epicodus, O6.10.2017
 
 #### By _**{List of contributors}**_
 
 ## Description
 
-This website has an index page with Bootstrap using a carousel for images. Click on the tab my profile tab and that will open up a page called profile.html.  I have created a brief profile as to why I am taking the Epicodus class. I've used columns, rows and containers.
+This website has an index page with vacation information and options.  I've used Javascript and JS on the backend, when clicking on the "Lets Go Vacation" the user will have various vacation choices appear with links to information.
 
 ## Setup/Installation Requirements
 
@@ -15,15 +15,15 @@ This website has an index page with Bootstrap using a carousel for images. Click
 
 ## Known Bugs
 
-I have had some difficulty with the carousel function on the index.html page. This may not load properly at times. Also lining up the images on the profile has been difficult this could be due to conflict between Bootstrap and my CSS styling.
+I have had some difficulty with my coding, I have tried to simplify the code in order to make it work and I'm not getting the results I wish to have for the users experience. I am not able to color the entire background, I have tried moving my containers but that created a mess.
 
 ## Support and contact details
 
-Should you have any problems feel free to contact me with questions, ideas or concerns at suerte.0125@gmail.com.  I encourage you to make a contribution to the code. 
+Should you have any problems feel free to contact me with questions, ideas or concerns. I encourage you to make a contribution to the code.
 
 ## Technologies Used
 
-This project uses HTML, CSS and Bootstrap with some elements copied from Bootstrap on W3 Schools website.  Most of my references were from Google and W3 Schools.
+This project uses HTML, CSS and Bootstrap with some elements copied from Bootstrap on W3 Schools website.  Most of my references were from Google and W3 Schools. This also used Java and JS Query my references include Epicodus, previous projects and Mozilla Developer.
 
 ### License
 

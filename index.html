@@ -4,7 +4,8 @@
   <title>Vacation Ideas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -36,147 +37,124 @@
           </p>
         </div>
         <div>
-          <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
-          <p><strong>Check out some adrenaline inspired adventures</strong></p>
-
+          <p><h4>Check out some adrenaline inspired adventures</h4></p>
         </div>
         <p><a href="https://theculturetrip.com/north-america/usa/articles/the-best-places-to-go-skydiving-in-the-us/">Best Skydiving in the US</a></p>
         <p><a href="http://www.placesyoullsee.com/25-of-the-best-white-water-rafting-destinations-in-the-us/">Best Whitewater Rafting in the US</a></p>
         <p><a href="http://www.sportdiver.com/photos/11-best-places-to-dive-america#page-12">Best Scuba Diving in the US</a></p>
-      </div>
-
-      <div class="col-sm-7">
-        <div class="thumbnail">
-
-          <img src="img/glacierpark.jpg" alt="Glacier Park" width="500" height="400">
+        <a href="https://www.buzzfeed.com/jonmichaelpoff/underrated-vacation-spots-in-the-united-states?utm_term=.qfK08qqANV#.nmZK4rrOM9" class="close" data-dismiss="alert" aria-label="close">×</a>
+        <div class="well">
+          <p>Buzzfeed is a blog site for travelers that gives some great ideas of places to travel and new activities to explore.</p>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="panel panel-default text-left">
-              <div class="panel-body">
-                <p><h2>Welcome</h2></p>
-                <p>We are here to offer some ideas for your next vacation.  Whether your into adventure or just like to take it easy on
-                  your vacation, we can help you come decide.  Our company is here to help you narrow down choices and we have selected some
-                  great destinations in the US.  These are not your everyday, been there done that kind of destinations. They best part about our selection is you
-                  will not need a passport!</p>
-                  <form id="travelquiz"
-                  <p><h3>Questions to help you decide on your next vacation destination:</h3></p>
-                  <div class="radio>"
-                    <h4>What do you prefer to do while on vacation?</h4>
-                    <label>
-                      <input type="radio" name="exploringOrRelax" value="explore" checked>
-                      Exploring or
-                    </label>
-                    <label>
-                      <input type="radio" name="exploringOrRelax" value="relax" checked>
-                      Relaxing
-                    </label>
-                  </div>
-                  <div class="radio>"
-                    <h4>Do you prefer mountains or coastal?</h4>
-                    <label>
-                      <input type="radio" name="terrain" value="mountains" checked>
-                      Mountains or
-                    </label>
-                    <label>
-                      <input type="radio" name="terrain" value="coastal" checked>
-                      Coastal
-                    </label>
-                  </div>
-                    <div class="radio>"
-                    <h4>What part of the U.S. would you like to explore the most on your next vacation?</h4>
+      </div>
+      <h1>Let's Go Vacation</h1>
+      <div class="col-sm-9">
+        <div class="thumbnail">
+          <img src="img/alifornia-beaches.jpg" alt="Big Sur California" width="600" height="400">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="panel panel-default text-left">
+                <div class="panel-body">
+                  <p><h1>Welcome</h1></p>
+                  <p>We are here to offer some ideas for your next vacation.  Whether your into adventure or just like to take it easy on
+                    your vacation, we can help you come decide.  Our company is here to help you narrow down choices and we have selected some
+                    great destinations in the US.  These are not your everyday, been there done that kind of destinations. They best part about our selection is you
+                    will not need a passport!</p>
+                    <p><h3>We can help you decide on your next vacation destination:</h3></p>
+                    <h4>What appeals to you most?</h4>
+                    <select class="form-control">
+                      <option>Hiking/Walking</option>
+                      <option>Mountain Biking</option>
+                      <option>Snorkeling/Scuba</option>
+                      <option>Reading/Movies</option>
+                      <option>Shopping/Spa Treatments</option>
+                      <option>Attending Sporting Events</option>
+                      <div>
+                      </select>
+                      <form id="travelquiz">
+                        <div class="radio>"
+                          <h4>What do you prefer to do while on vacation?</h4>
+                          <label>
+                            <input type="radio" name="exploringOrRelax" value="explore" checked>
+                            Exploring or
+                          </label>
+                          <label>
+                            <input type="radio" name="exploringOrRelax" value="relax">
+                            Relaxing
+                          </label>
+                        </div>
+                        <div class="radio>"
+                          <h4>Do you prefer mountains or coastal?</h4>
+                          <label>
+                            <input type="radio" name="terrain" value="mountains" checked>
+                            Mountains or
+                          </label>
+                          <label>
+                            <input type="radio" name="terrain" value="coastal">
+                            Coastal
+                          </label>
+                        </div>
+                        <div class="radio>"
+                          <h4>What part of the U.S. would you like to explore the most on your next vacation?</h4>
+                          <div>
+                            <label>
+                              <input type="radio" name="usNavigation" value="North" checked>
+                              North
+                            </label>
+                            <label>
+                              <input type="radio" name="usNavigation" value="South">
+                              South
+                            </label>
+                            <input type="radio" name="usNavigation" value="East">
+                            East
+                          </label>
+                          <label>
+                            <input type="radio" name="usNavigation" value="West">
+                            West
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="radio>"
+                        <h4>What time of year do you want to travel?</h4>
+                        <div>
+                          <label>
+                            <input type="radio" name="season" value="Spring" checked>
+                            Spring
+                          </label>
+                          <label>
+                            <input type="radio" name="season" value="Summer">
+                            Summer
+                          </label>
+                          <input type="radio" name="season" value="Fall">
+                          Fall
+                        </label>
+                        <label>
+                          <input type="radio" name="season" value="Winter">
+                          Winter
+                        </label>
+                      </div>
+                    </div>
                     <div>
-                      <label>
-                        <input type="radio" name="usNavigation" value="North" checked>
-                        North
-                      </label>
-                      <label>
-                        <input type="radio" name="usNavigation" value="South" checked>
-                        South
-                      </label>
-                      <input type="radio" name="usNavigation" value="East" checked>
-                      East
-                    </label>
-                    <label>
-                      <input type="radio" name="usNavigation" value="West" checked>
-                      West
-                    </label>
+                      <button type="submit" class="btn">Let's Go Vacation!</button>
+                    </div>
+                  </form>
+                  <div id="output">
+                    <div class="output" id="beach">
+                      <img src="img/bigsure2.jpg" alt="Santa Barbara"></img>
+                      <a href="https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_6424-Large-e1464813105746-650x388.jpg/">Santa Barbara, California</a>
+                    </div>
+                    <div class="output" id="npark">
+                      <a href= "https://www.nps.gov/index.htm">National Park Service</a>
+                    </div>
                   </div>
                 </div>
-
-                <div class="radio>"
-                <h4>What time of year do you want to travel?</h4>
-                <div>
-                  <label>
-                    <input type="radio" name="season" value="Spring" checked>
-                    Spring
-                  </label>
-                  <label>
-                    <input type="radio" name="season" value="Summer" checked>
-                    Summer
-                  </label>
-                  <input type="radio" name="season" value="Fall" checked>
-                  Fall
-                </label>
-                <label>
-                  <input type="radio" name="season" value="Winter" checked>
-                  Winter
-                </label>
               </div>
             </div>
-            <h4>What appeals to you most?</h4>
-                <select class="form-control">
-                  <option>Hiking/Walking</option>
-                  <option>Mountain Biking</option>
-                  <option>Snorkeling/Scuba</option>
-                  <option>Reading/Movies</option>
-                  <option>Shopping/Spa Treatments</option>
-                  <option>Attending Sporting Events</option>
-                </select>
-              </form>
-            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="panel panel-default text-left">
-            <div class="panel-body">
-            </div>
-            </div
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="well">
-          <p>John</p>
-          <img src="img/bigsur.jpg" class="img-circle" height="55" width="55" alt="Avatar">
-        </div>
-      </div>
-      <div class="col-sm-9">
-        <div class="well">
-          <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="well">
-          <p>Bo</p>
-          <img src="img/maine.jpg" class="img-circle" height="55" width="55" alt="Avatar">
-        </div>
-      </div>
-      <div class="col-sm-9">
-        <div class="well">
-          <p> ahfoiwURAO;JMJJRAMEA Ahh, forget it! Or wait. I remember.... no I don't.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</body>
-</html>
+    </body>
+    </html>

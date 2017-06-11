@@ -1,12 +1,16 @@
-/* Remove the navbar's default margin-bottom and rounded borders */
-   .navbar {
-     margin-bottom: 0;
-     border-radius: 0;
-   }
-   .output {
+.output {
   display: none;
 }
-   /*Set container background color*/
-.background {
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+/*Set container background color*/
+.container {
   background-color: #f2f2f2;
+}
+.h1 {
+  text-align: center;
+  font-weight: bold;
 }
