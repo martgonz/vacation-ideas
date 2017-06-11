@@ -10,17 +10,20 @@ $(document).ready(function() {
     var usNavigation = $("input:radio[name=usNavigation]:checked").val();
     var season = $("input:radio[name=season]:checked").val();
 
-    //if (exploreOrRelax === 'relax') {
-      //if (terrain === 'coastal') {
-        //$(".output#beach").show();
-        $("button").click(function() {
-          alert("this works");
-        });
-      //} else {
-    //    $(".output#npark").show();
-      //}
+    if (exploreOrRelax === 'relax') {
+      if (terrain === 'coastal') {
+        $(".output#beach").show();
+      }
 
-   //if (exploreOrRelax === 'explore') {
-  //    $(".output#sandiego").show();
+    } else if (exploreOrRelax === 'explore') {
+      if (terrain === 'coastal') {
+        $(".output#sandiego").show();
+      }
+    }
+    if (exploreOrRelax === "explore") {
+      if (terrain === "mountain") {
+        $(".output#npark").show();
+      }
+    }
+    });
   });
-});
